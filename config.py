@@ -18,12 +18,12 @@ REFRESH_INTERVAL_SECONDS = 300  # 5 minutes
 # Based on historical Oscar/Emmy precursor correlation data 2000–2025.
 
 SIGNAL_WEIGHTS = {
-    "sag_win":          0.28,   # SAG Award win (acting categories)
-    "bafta_win":        0.22,   # BAFTA win
-    "critics_choice":   0.18,   # Critics Choice win
-    "guild_noms":       0.15,   # WGA / DGA / PGA nominations
-    "rt_score":         0.10,   # Rotten Tomatoes critic score
-    "social_volume":    0.07,   # Social media buzz trend
+    "critics_choice": 0.413,
+    "sag_win":        0.285,
+    "social_volume":  0.091,
+    "guild_noms":     0.091,
+    "bafta_win":      0.086,
+    "rt_score":       0.034,
 }
 
 # ── Per-show adjustments ─────────────────────────────────────
